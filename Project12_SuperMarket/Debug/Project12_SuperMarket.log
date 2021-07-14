@@ -1,0 +1,5 @@
+﻿  SupermarketManager.cpp
+C:\Users\3G7K8F3\Desktop\训练营\myc++\Project12_SuperMarket\SupermarketManager.cpp(477,20): warning C4018: “<”: 有符号/无符号不匹配
+C:\Users\3G7K8F3\Desktop\训练营\myc++\Project12_SuperMarket\SupermarketManager.cpp(509,26): warning C4018: “<”: 有符号/无符号不匹配
+C:\Users\3G7K8F3\Desktop\训练营\myc++\Project12_SuperMarket\SupermarketManager.cpp(473): warning C4715: “SupermarketManager::getCount”: 不是所有的控件路径都返回值
+  Project12_SuperMarket.vcxproj -> C:\Users\3G7K8F3\Desktop\训练营\myc++\Project12_SuperMarket\Debug\Project12_SuperMarket.exe
