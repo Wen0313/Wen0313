@@ -1,0 +1,7 @@
+﻿  main.cpp
+C:\Users\3G7K8F3\Desktop\训练营\myc++\Project13_KMatrix\KMatrix_less.h(332): warning C4715: “KMatrix<int>::dotMul”: 不是所有的控件路径都返回值
+C:\Users\3G7K8F3\Desktop\训练营\myc++\Project13_KMatrix\KMatrix_less.h(63): warning C4715: “KMatrix<int>::Iterator::operator*”: 不是所有的控件路径都返回值
+C:\Users\3G7K8F3\Desktop\训练营\myc++\Project13_KMatrix\KMatrix_less.h(313): warning C4715: “KMatrix<int>::operator*”: 不是所有的控件路径都返回值
+C:\Users\3G7K8F3\Desktop\训练营\myc++\Project13_KMatrix\KMatrix_less.h(200): warning C4715: “KMatrix<int>::getData”: 不是所有的控件路径都返回值
+C:\Users\3G7K8F3\Desktop\训练营\myc++\Project13_KMatrix\KMatrix_less.h(63): warning C4715: “KMatrix<double>::Iterator::operator*”: 不是所有的控件路径都返回值
+  Project13_KMatrix.vcxproj -> C:\Users\3G7K8F3\Desktop\训练营\myc++\Project13_KMatrix\Debug\Project13_KMatrix.exe
