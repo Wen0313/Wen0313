@@ -1,0 +1,102 @@
+QWidget{
+    background-color:transparent;
+}
+
+QPushButton#pushButton_4 {
+    background-color:transparent;
+    background-image: url(:/image/normalqualityitem.png);
+    background-position: center;
+    background-repeat: no-repeat
+}
+
+QPushButton#pushButton_5 {
+    background-color:transparent;
+    background-image: url(:/image/nowatermarkitem.png);
+    background-position: center;
+    background-repeat: no-repeat
+}
+
+QPushButton#pushButton_4:hover{
+    border-width:0px 0px 0px 0px;
+    border-image: url(:/image/watermarkitemhover.png);
+}
+
+QPushButton#pushButton_5:hover{
+    border-width:0px 0px 0px 0px;
+    border-image: url(:/image/watermarkitemhover.png);
+}
+
+QPushButton#pushButton_4:pressed{
+    border-width:0px 0px 0px 0px;
+    border-image: url(:/image/watermarkitemclick.png);
+}
+
+QPushButton#pushButton_5:pressed{
+    border-width:0px 0px 0px 0px;
+    border-image: url(:/image/watermarkitemclick.png);
+}
+
+QDialog{
+    background-color: gainsboro;
+    background-image: url(:/image/background.png);
+    background-position: top right;
+    background-repeat: no-repeat
+}
+
+QPushButton#pushButton
+{
+   border-image: url(:/image/close-normal.png);
+   border-width:0px 0px 0px 0px;
+   background-repeat:none;
+   background-origin: content;
+}
+
+QPushButton#pushButton:hover
+{
+   border-image: url(:/image/close-hover.png);
+}
+
+QPushButton#pushButton_3
+{
+   border-radius: 10px;
+   background-color: #0055FF;
+   color: white;
+}
+
+QComboBox{
+    background-color: white;
+    border:1px solid gainsboro;
+    background-image: url(:/image/background.png);
+    background-position: top right;
+    background-repeat: no-repeat
+}
+
+QComboBox::drop-down{
+    border:white;
+}
+
+QLabel{
+    font:bold black 12px;
+}
+
+QLabel#label{
+    color: #0055FF;
+    font: bold 24px;
+}
+
+QLabel#label_6{
+    font: 12px;
+}
+
+QLabel#label_7{
+    font: 12px;
+}
+
+QLineEdit{
+    background:transparent;
+    border:1px solid gainsboro;
+}
+
+QLineEdit#lineEdit {
+    color: gainsboro;
+}

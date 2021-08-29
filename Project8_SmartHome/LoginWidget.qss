@@ -1,0 +1,9 @@
+QPushButton#pushButton {
+    border-image: url(:/images/sign.png);
+    border-width:0px 0px 0px 0px;
+    background-repeat:none;
+    background-origin: content;
+}
+QPushButton#pushButton:hover {
+    border-image: url(:/images/sign-hover.png);
+}

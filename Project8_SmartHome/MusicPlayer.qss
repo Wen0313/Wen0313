@@ -1,0 +1,104 @@
+QPushButton#pushButton_6 {
+    border-image: url(:/images/return.png);
+    border-width:0px 0px 0px 0px;
+    background-repeat:none;
+    background-origin: content;
+}
+QPushButton#pushButton_6:hover {
+    border-image: url(:/images/return-hover.png);
+}
+
+QPushButton#pushButton {
+    border-image: url(:/images/play.png);
+    border-width:0px 0px 0px 0px;
+    background-repeat:none;
+    background-origin: content;
+}
+QPushButton#pushButton:hover {
+    border-image: url(:/images/play-hover.png);
+}
+QPushButton#pushButton:disabled {
+    border-image: url(:/images/play-disabled.png);
+}
+
+QPushButton#pushButton_2 {
+    border-image: url(:/images/pre.png);
+    border-width:0px 0px 0px 0px;
+    background-repeat:none;
+    background-origin: content;
+}
+QPushButton#pushButton_2:hover {
+    border-image: url(:/images/pre-hover.png);
+}
+QPushButton#pushButton_2:disabled {
+    border-image: url(:/images/pre-disabled.png);
+}
+
+QPushButton#pushButton_3 {
+    border-image: url(:/images/nex.png);
+    border-width:0px 0px 0px 0px;
+    background-repeat:none;
+    background-origin: content;
+}
+QPushButton#pushButton_3:hover {
+    border-image: url(:/images/nex-hover.png);
+}
+QPushButton#pushButton_3:disabled {
+    border-image: url(:/images/nex-disabled.png);
+}
+
+QPushButton#pushButton_4 {
+    border-image: url(:/images/add.png);
+    border-width:0px 0px 0px 0px;
+    background-repeat:none;
+    background-origin: content;
+}
+QPushButton#pushButton_4:hover {
+    border-image: url(:/images/add-hover.png);
+}
+
+QPushButton#pushButton_5 {
+    border-image: url(:/images/sub.png);
+    border-width:0px 0px 0px 0px;
+    background-repeat:none;
+    background-origin: content;
+}
+QPushButton#pushButton_5:hover {
+    border-image: url(:/images/sub-hover.png);
+}
+
+QPushButton#pushButton_7 {
+    background: transparent;
+}
+
+QSlider{
+    border-color: #cbcbcb;
+}
+QSlider::groove:vertical {
+    background: #cbcbcb;
+    width: 6px;
+    border-radius: 1px;
+    padding-left:-1px;
+    padding-right:-1px;
+    padding-top:-1px;
+    padding-bottom:-1px;
+}
+QSlider::sub-page:vertical {
+    background: #cbcbcb;
+    border-radius: 2px;
+}
+
+QSlider::add-page:vertical {
+    background: qlineargradient(x1:0, y1:0, x2:0, y2:1,
+    stop:0 #439cf4, stop:1 #439cf4);
+    background: qlineargradient(x1: 0, y1: 0.2, x2: 1, y2: 1,
+    stop: 0 #439cf4, stop: 1 #439cf4);
+    width: 10px;
+    border-radius: 2px;
+}
+QSlider::handle:vertical
+{
+    border-image: url(:/images/handle.png);
+    margin: -2px -7px -2px -7px;
+    height: 17px;
+}

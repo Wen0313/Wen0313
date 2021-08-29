@@ -1,0 +1,29 @@
+QPushButton#pushButton {
+    border-image: url(:/images/equi.png);
+    border-width:0px 0px 0px 0px;
+    background-repeat:none;
+    background-origin: content;
+}
+QPushButton#pushButton:hover {
+    border-image: url(:/images/equi-hover.png);
+}
+
+QPushButton#pushButton_2 {
+    border-image: url(:/images/weather.png);
+    border-width:0px 0px 0px 0px;
+    background-repeat:none;
+    background-origin: content;
+}
+QPushButton#pushButton_2:hover {
+    border-image: url(:/images/weather-hover.png);
+}
+
+QPushButton#pushButton_3 {
+    border-image: url(:/images/music.png);
+    border-width:0px 0px 0px 0px;
+    background-repeat:none;
+    background-origin: content;
+}
+QPushButton#pushButton_3:hover {
+    border-image: url(:/images/music-hover.png);
+}

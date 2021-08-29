@@ -1,0 +1,107 @@
+QPushButton#pushButton_6 {
+    border-image: url(:/images/return.png);
+    border-width:0px 0px 0px 0px;
+    background-repeat:none;
+    background-origin: content;
+}
+QPushButton#pushButton_6:hover {
+    border-image: url(:/images/return-hover.png);
+}
+
+QPushButton#pushButton {
+    border-image: url(:/images/off.png);
+    border-width:0px 0px 0px 0px;
+    background-repeat:none;
+    background-origin: content;
+}
+
+QPushButton#pushButton_2 {
+    border-image: url(:/images/off.png);
+    border-width:0px 0px 0px 0px;
+    background-repeat:none;
+    background-origin: content;
+}
+
+QPushButton#pushButton_3 {
+    border-image: url(:/images/off.png);
+    border-width:0px 0px 0px 0px;
+    background-repeat:none;
+    background-origin: content;
+}
+
+QPushButton#pushButton_4 {
+    border-image: url(:/images/off.png);
+    border-width:0px 0px 0px 0px;
+    background-repeat:none;
+    background-origin: content;
+}
+
+QPushButton#pushButton_5 {
+    border-image: url(:/images/clear.png);
+    border-width:0px 0px 0px 0px;
+    background-repeat:none;
+    background-origin: content;
+}
+QPushButton#pushButton_5:hover {
+    border-image: url(:/images/clear-hover.png);
+}
+
+QLabel#label_5{
+    border-image: url(:/images/l1Off.png);
+}
+
+QLabel#label_6{
+    border-image: url(:/images/l2Off.png);
+}
+
+QLabel#label_7{
+    border-image: url(:/images/soundOff.png);
+}
+
+QLabel#label_8{
+    border-image: url(:/images/airOff.png);
+}
+
+
+QSlider{
+    border-color: #bcbcbc;
+}
+QSlider::groove:horizontal {
+    border: 1px solid #999999;
+    height: 1px;
+    margin: 0px 0;
+    left: 10px; right: 10px;
+ }
+
+QSlider::handle:horizontal {
+    border: 0px ;
+    border-image:  url(:/images/handle-disabled.png);
+    width: 15px;
+    margin: -7px -7px -7px -7px;
+}
+
+QSlider::add-page:horizontal{
+    background: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0, stop:0 #bcbcbc, stop:0.25 #bcbcbc, stop:0.5 #bcbcbc, stop:1 #bcbcbc);
+}
+
+QSlider::sub-page:horizontal{
+    background: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0, stop:0 #439cf3, stop:0.25 #439cf3, stop:0.5 #439cf3, stop:1 #439cf3);
+}
+
+
+QSpinBox{
+    height:30px;
+    width:30px;
+}
+
+QSpinBox::up-button
+{
+    border-image:url(:/images/up-disabled.png);
+    height: 15px;
+}
+QSpinBox::down-button{
+    border-image:url(:/images/down-disabled.png);
+    height: 15px;
+}
+
+

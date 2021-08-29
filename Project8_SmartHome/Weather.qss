@@ -1,0 +1,43 @@
+QPushButton#pushButton_2 {
+    border-image: url(:/images/return.png);
+    border-width:0px 0px 0px 0px;
+    background-repeat:none;
+    background-origin: content;
+}
+QPushButton#pushButton_2:hover {
+    border-image: url(:/images/return-hover.png);
+}
+
+QPushButton#pushButton {
+    border-image: url(:/images/search.png);
+    border-width:0px 0px 0px 0px;
+    background-repeat:none;
+    background-origin: content;
+}
+QPushButton#pushButton:hover {
+    border-image: url(:/images/search-hover.png);
+}
+
+QLabel#label_8 {
+    color: white;
+}
+
+QLabel#label_9 {
+    color: white;
+}
+
+QLabel#label_10 {
+    color: white;
+}
+
+QLabel#label_11 {
+    color: white;
+}
+
+QLabel#label_12 {
+    color: white;
+}
+
+QLabel#label_14 {
+    color: white;
+}
